@@ -1,9 +1,11 @@
 import './App.css';
+import Login from './Components/Login';
 
 function App() {
   return (
-    <div className="App">
-      <h2 className='text-orange-500 font-bold text-lg'>Nomad</h2>
+    <div className="flex justify-between">
+    <img className='w-auto h-screen' src='/assets/wallpaper1.jpeg' alt='wallpaper'></img>
+    <Login/>
     </div>
   );
 }
